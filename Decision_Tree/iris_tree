@@ -1,0 +1,20 @@
+digraph Tree {
+0 [label="petal length (cm) <= 1.9"];
+1 [label="Leaf: class 0", shape=box];
+2 [label="petal width (cm) <= 1.7"];
+3 [label="petal length (cm) <= 4.9"];
+4 [label="Leaf: class 1", shape=box];
+5 [label="Leaf: class 2", shape=box];
+3 -> 4;
+3 -> 41;
+6 [label="petal length (cm) <= 4.8"];
+7 [label="Leaf: class 2", shape=box];
+8 [label="Leaf: class 2", shape=box];
+6 -> 7;
+6 -> 44;
+2 -> 3;
+2 -> 133;
+0 -> 1;
+0 -> 38;
+
+}
